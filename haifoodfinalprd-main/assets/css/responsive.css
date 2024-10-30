@@ -3,6 +3,8 @@
 	.qualitySection{
 		background-image: url(../img/home-bg7.png);
 	}
+
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
@@ -217,10 +219,24 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+	.section-title2 p{
+		font-size: 10px;
+	}
+
 	.MainTxt h2{
+		font-size: 40px;
 		text-align: center;
 		max-width: 100%;
 		padding-right: 0%;
+	}
+	.Qcontent h3{
+		font-size: 25px;
+		max-width: 80%;
+	}
+
+	.Qcontent p{
+		font-size: 10px;
+        max-width: 80%;
 	}
 
 	.back-panel
@@ -230,7 +246,7 @@
 	}
 
 	.homepage-bg-1{
-		max-height: 35%;
+		max-height: 30%;
 	}
 
 	.qualitySection{
@@ -238,7 +254,7 @@
 	}
 
 	.site-logo img {
-	    max-width: 100px;
+	    max-width: 80px;
 	}
 
 	.responsive-menu-wrap {
